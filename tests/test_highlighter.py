@@ -28,6 +28,6 @@ class HighlightTest(unittest.TestCase):
                                             'text': self.text})
         self.assertIn(self.highlighted_text, response.data)
 
-    def test_function(seld):
+    def test_function(self):
         """This is test function"""
         pass
