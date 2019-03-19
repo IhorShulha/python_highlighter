@@ -27,3 +27,7 @@ class HighlightTest(unittest.TestCase):
         response = self.app.post('/', data={'search': self.search_text,
                                             'text': self.text})
         self.assertIn(self.highlighted_text, response.data)
+
+    def test_function(seld):
+        """This is test function"""
+        pass
